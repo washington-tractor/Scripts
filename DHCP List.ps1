@@ -1,0 +1,1 @@
+﻿Get-DhcpServerv4Scope -ScopeId 10.29.180.0 | Get-DhcpServerv4Lease -EA SilentlyContinue | Out-File C:\output.txt
